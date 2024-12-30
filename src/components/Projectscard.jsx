@@ -1,31 +1,28 @@
-
+import {ExternalLink} from "lucide-react";
 const Projectscard = (props) => {
-    const { title, description , src} = props;
-    
+   const { title, description ,tag ,link ,size= "large"}=props
+    const sizebox={
+      medium:'w-64 h-48 ',
+      large:'w-64 h-fit '
+    }
   return (
-    <div className="relative w-64 h-80 rounded-lg bg-[red] overflow-hidden group">
-      {/* Card Image */}
-      <div className="absolute inset-0">
-        <img 
-          src = {src} 
-          alt="Card background" 
-          className="w-full h-full object-cover"
-        />
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+       <div className={`${sizebox[size]}  bg-white rounded-lg shadow-md p-6  `}>
+       <h3 className="text-xl font-semibold mb-2">{title}</h3>
+       <p className="text-gray-600 mb-4">{description}</p>
+       <div className="flex flex-wrap gap-2 mb-4">
+       <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm">
+                      {tag}
+      </span>
+      <a href={link} className="inline-flex items-center text-blue-600 hover:text-blue-800">
+        View Project <ExternalLink size={16} className="ml-1" />
+                </a>
+       </div>
+
+       </div>
+
       </div>
-      
-      {/* Title - Always Visible */}
-      <div className="absolute top-0 left-0 right-0 p-4 bg-gradient-to-b from-black/50 to-transparent">
-        <h3 className="text-white text-xl font-bold"> { title}</h3>
-      </div>
-      
-      {/* Overlay with Description - Visible on Hover */}
-      <div className="absolute inset-0 bg-black/70 flex items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <p className="text-white text-center">
-         {description}
-        </p>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Projectscard;

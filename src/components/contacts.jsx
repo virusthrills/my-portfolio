@@ -4,8 +4,8 @@ function Contacts(){
     return(
         <main className=" bg-gray-100 p-8  pb-5 "> 
             
-            <h2 className="text-gray-400   uppercase text-center pt-8 ">portfolio</h2>
-            <h1 className="  capitalize text-center font-bold text-4xl mb-6 "> featured projects </h1>
+            <h2 className="text-gray-400   uppercase text-center pt-8 ">Contacts</h2>
+            <h1 className="  capitalize text-center font-bold text-4xl mb-6 "> Get in touch </h1>
 
             <div className=" grid place-items-center gap-5 md:flex md:justify-center md:items-center md:space-x-10">
 
