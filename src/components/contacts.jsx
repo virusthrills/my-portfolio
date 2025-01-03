@@ -9,20 +9,22 @@ function Contacts(){
 
             <div className=" grid place-items-center gap-5 md:flex md:justify-center md:items-center md:space-x-10">
 
-            <div className=" bg-[white] p-10  px-10 lg:px-20 w-fit flex-col justify-center items-center rounded-md shadow-md ">
+            <div className=" bg-[white] p-10  px-10 lg:px-20 w-fit flex-col justify-center items-center rounded-md shadow-md hover:cursor-pointer  ">
             <img src="/linkedin-svgrepo-com.svg" className="h-[2rem] ml-6  " />
             <h2 className="capitalize text-xl font-bold  ">linkedin</h2>
             </div>
 
-            <div className=" bg-[white] p-10 px-10 lg:px-20 w-fit flex-col justify-center items-center rounded-md shadow-md ">
-            <img src="/phone-svgrepo-com.svg" className="h-[2rem] ml-6  " />
-            <h2 className="capitalize text-xl font-bold  ">phone </h2>
+            <div className=" bg-[white] p-10 px-10 lg:px-20 w-fit flex-col justify-center items-center rounded-md shadow-md  hover:cursor-pointer ">
+            <img src="/email-svgrepo-com.svg" className="h-[2rem] ml-2  " />
+            <h2 className="capitalize text-xl font-bold  ">Email </h2>
             </div>
+        <a href="https://wa.link/4xcxwy">
 
-            <div className=" bg-[white] p-10 px-10 lg:px-20 w-fit flex-col justify-center items-center rounded-md shadow-md ">
+            <div className=" bg-[white] p-10 px-10 lg:px-20 w-fit flex-col justify-center items-center rounded-md shadow-md hover:cursor-pointer  ">
             <img src="/whatsapp-logo-variant-svgrepo-com.svg" className="h-[2rem] ml-6  " />
             <h2 className="capitalize text-xl font-bold  ">whatsapp</h2>
             </div>
+            </a>
 
             </div>
    </main>

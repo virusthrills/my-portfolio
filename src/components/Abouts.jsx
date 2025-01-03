@@ -16,7 +16,7 @@ return(
 
         <section className=" bg-[white]  p-8 md:mt-30 md:pr-20 lg:pr-60  rounded-md shadow-md ">
         <h3 className=" font-bold  py-2">Experience</h3>
-        <p className="text-gray-400 pb-5"> 2 years in web development </p>
+        <p className="text-gray-400 pb-5"> 6 months in web development </p>
 
         <h3 className=" font-bold  py-2">Education </h3>
         <p className="text-gray-400 pb-5"> Computer Science, BSc</p>
