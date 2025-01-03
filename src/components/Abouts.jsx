@@ -6,7 +6,7 @@ return(
     <main className="bg-gray-100  md:flex md:items-center md:justify-center md:h-screen p-8 ">
         <section className="text-center  py-9 md:py-0  ">
             <h2 className="text-gray-400  text-xl uppercase text-center  md:text-left md:p-2 py-5 md:py-10">about me</h2>
-           <Profile src='src\assets\image.jpg' />
+           <Profile src='/image.jpg' />
 
             <h1 className=" text-4xl lg:text-4xl font-bold py-5 lg:py-7 text-left md:p-2" > Passionate about creating meaningful digital solutions</h1>
             <p className="text-gray-400 text-left md:p-2 lg:text-[18px] text-xl ">With a focus on user-centered design and cutting-edge technologies,
